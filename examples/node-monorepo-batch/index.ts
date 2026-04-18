@@ -1,5 +1,5 @@
-import { Pacer } from "pinch";
-import type { Task } from "pinch";
+import { Pacer } from "itsalt-pinch";
+import type { Task } from "itsalt-pinch";
 
 const PROJECTS = [
   { id: "api-gateway",  cwd: "/repos/api-gateway" },

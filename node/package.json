@@ -1,5 +1,5 @@
 {
-  "name": "pinch",
+  "name": "itsalt-pinch",
   "version": "0.0.0",
   "description": "Architecturally-capped pacing for parallel claude -p calls. Automate yourself, not around Anthropic.",
   "type": "module",

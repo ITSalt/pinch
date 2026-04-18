@@ -6,7 +6,7 @@ Shape of a nightly CI job driven by `pinch`. Reads tasks from
 ## Run locally
 
 ```bash
-pip install pinch
+pip install itsalt-pinch
 python main.py
 ```
 
@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install pinch
+      - run: pip install itsalt-pinch
       - run: python examples/python-ci-nightly/main.py
         env:
           PINCH_WINDOW_START: "00:00"

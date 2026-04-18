@@ -61,10 +61,23 @@ args — is configurable *within* these bounds.
 
 ```bash
 # Node
-npm install pinch
+npm install itsalt-pinch
 
 # Python
-pip install pinch
+pip install itsalt-pinch
+```
+
+The package is distributed as **`itsalt-pinch`** on both registries
+(the short `pinch` name was already taken on npm and PyPI). The
+import name is still `pinch`:
+
+```ts
+import { Pacer } from "itsalt-pinch";
+```
+
+```python
+from pinch import Pacer   # yes, underscore-less — the wheel
+                          # installs into the `pinch` package
 ```
 
 Zero runtime dependencies on Node. On Python the only dep is `tzdata`
@@ -76,7 +89,7 @@ timezone database in stdlib.
 ## Quick start — Node
 
 ```ts
-import { Pacer } from "pinch";
+import { Pacer } from "itsalt-pinch";
 
 const pacer = new Pacer({
   workingWindow: { start: "08:00", end: "23:00", tz: "Europe/Moscow" },

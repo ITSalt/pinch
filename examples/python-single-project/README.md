@@ -6,7 +6,7 @@ project, default invariants.
 ## Run
 
 ```bash
-pip install pinch
+pip install itsalt-pinch
 python main.py
 ```
 

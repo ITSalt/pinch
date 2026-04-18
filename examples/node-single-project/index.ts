@@ -1,4 +1,4 @@
-import { Pacer } from "pinch";
+import { Pacer } from "itsalt-pinch";
 
 async function main(): Promise<void> {
   const pacer = new Pacer({
