@@ -1,0 +1,37 @@
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+.npmrc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.vitest/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+.coverage
+htmlcov/
+.venv/
+venv/
+.tox/
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Env
+.env
+.env.local

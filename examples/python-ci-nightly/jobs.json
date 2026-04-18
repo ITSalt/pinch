@@ -1,0 +1,17 @@
+[
+  {
+    "prompt": "List TODO comments added in the last week.",
+    "project_id": "api-gateway",
+    "cwd": "/repos/api-gateway"
+  },
+  {
+    "prompt": "Summarise this week's merged PRs in two sentences each.",
+    "project_id": "web-frontend",
+    "cwd": "/repos/web-frontend"
+  },
+  {
+    "prompt": "Flag any test files that haven't been touched in 6 months.",
+    "project_id": "cron-jobs",
+    "cwd": "/repos/cron-jobs"
+  }
+]
